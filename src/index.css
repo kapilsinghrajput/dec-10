@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.loginn{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-preview.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+}
+.loging_box{
+width: 350px;
+padding: 10px;
+text-transform: capitalize;
+box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.433);
+border-radius: 10px;
+background: #3b48ff31;
+display: flex;
+flex-direction: column;
+
+}
+
+.loging_box .inp input{
+width: 100%;
+margin: 10px 0;
+padding: 5px;
+border-radius: 5px;
+border: none;
+font-size: 1.2rem;
+}
+.loging_box button{
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 5px 15px ;
+  border: none;
+  margin: 10px;
+  background: rgb(71, 128, 220)000;
+  cursor: pointer;
+}
+
+/* navbar */
+
+.logo img{
+  width: 50px;
+}
